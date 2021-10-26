@@ -1,0 +1,22 @@
+.lead-text{
+    display: block;
+    padding-top: 100px;
+}
+.address-section{
+	display: block;
+}
+.form-section{
+	display: block;
+}
+.divider {
+	width: 2px;
+	margin: 6px 0;
+	background: rgb(64, 64, 68);
+	display: none;
+  }
+
+@media only screen and (max-width: 768px) {
+	.divider{
+		display: block;
+	}
+  }

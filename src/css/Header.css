@@ -1,0 +1,19 @@
+.jumbotron{
+    height: 300px;/*240px or 270px*/
+    position: relative;
+    display: block;
+    background-image: url('../images/banner/banner1.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: rgb(27, 26, 26);
+    opacity: 0.9;
+    top: 99px;
+  }
+  .text{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+  }
